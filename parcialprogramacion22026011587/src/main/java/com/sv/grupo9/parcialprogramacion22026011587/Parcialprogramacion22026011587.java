@@ -7,7 +7,7 @@ public class Parcialprogramacion22026011587 {
         Vendedor vendedor = new Vendedor(
                 "Emmanuel",
                 1000.00,
-                new ComisionEstandar()
+                new ComisionPersonalizada("Emmanuel")
         );
 
         vendedor.mostrarDetalle();
